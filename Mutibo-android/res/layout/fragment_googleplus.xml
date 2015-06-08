@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/googlePlusLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleplus_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:enabled="false" />
+
+    <!-- layout_width=106dp -->
+
+    <ImageButton
+        android:id="@+id/googleplus_sign_out_button"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:contentDescription="@string/sign_out_button_name"
+        android:enabled="false"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_googleplus_signout"
+        android:text="@string/sign_out_button_name" />
+
+</RelativeLayout>

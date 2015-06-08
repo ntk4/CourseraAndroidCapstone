@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <ListPreference -->
+    <!-- android:entries="@array/listDisplayWord" -->
+    <!-- android:entryValues="@array/listReturnValue" -->
+    <!-- android:key="listPref" -->
+    <!-- android:summary="@string/pref_login_method_summary" -->
+    <!-- android:title="@string/pref_login_method" /> -->
+    <!-- <PreferenceScreen android:title="Login details" > -->
+
+
+    <!-- You can place more preferences here that will be shown on the next screen. -->
+    <!-- <CheckBoxPreference -->
+    <!-- android:key="pref_login_local" -->
+    <!-- android:summary="@string/pref_login_local_summary" -->
+    <!-- android:title="@string/pref_login_local" > -->
+    <!-- </CheckBoxPreference> -->
+    <!-- <CheckBoxPreference -->
+    <!-- android:key="pref_login_facebook" -->
+    <!-- android:summary="@string/pref_login_facebook_summary" -->
+    <!-- android:title="@string/pref_login_facebook" > -->
+    <!-- </CheckBoxPreference> -->
+    <!-- <CheckBoxPreference -->
+    <!-- android:key="pref_login_google" -->
+    <!-- android:summary="@string/pref_login_google_summary" -->
+    <!-- android:title="@string/pref_login_google" > -->
+    <!-- </CheckBoxPreference> -->
+    <!-- </PreferenceScreen> -->
+
+
+    <!-- <PreferenceCategory android:title="@string/pref_categ_user_experience" > -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_gestures"
+        android:summary="@string/pref_gestures_summary"
+        android:title="@string/pref_gestures" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_downloadMovieImages"
+        android:summary="@string/pref_downloadMovieImages_summary"
+        android:title="@string/pref_downloadMovieImages" >
+    </CheckBoxPreference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_gameCircle"
+        android:summary="@string/pref_gameCircle_summary"
+        android:title="@string/pref_gameCircle" >
+    </CheckBoxPreference>
+
+    <!-- </PreferenceCategory> -->
+
+</PreferenceScreen>

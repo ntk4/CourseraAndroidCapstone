@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/questionLayout" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/question_title"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/movieTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/strutHorizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/strutVertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/question_title"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/movieTitle1"
+        android:layout_alignBottom="@+id/movieTitle1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/strutVertical"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp" >
+
+        <ImageView
+            android:id="@+id/movieImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/movie_image" />
+
+        <ProgressBar
+            android:id="@+id/imageProgress1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/strutVertical"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/movieTitle2"
+        android:layout_alignLeft="@+id/strutVertical"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp" >
+
+        <ImageView
+            android:id="@+id/movieImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/movie_image" />
+
+        <ProgressBar
+            android:id="@+id/imageProgress2"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/movieTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/strutHorizontal"
+        android:layout_alignLeft="@+id/strutVertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/question_title"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/strutHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/strutVertical"
+        android:layout_alignTop="@+id/strutHorizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp" >
+
+        <ImageView
+            android:id="@+id/movieImage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/movie_image" />
+
+        <ProgressBar
+            android:id="@+id/imageProgress3"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/movieTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/strutVertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="@string/question_title"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/strutVertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/strutHorizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp" >
+
+        <ImageView
+            android:id="@+id/movieImage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/movie_image" />
+
+        <ProgressBar
+            android:id="@+id/imageProgress4"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/movieTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/strutVertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/question_title"
+        android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mutibo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Solo</item>
+        <item>Vendetta</item>
+        <item>Gang</item>
+        <item>Hot scores</item>
+        <item>Options</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_solo</item>
+        <item>@drawable/ic_vendetta</item>
+        <item>@drawable/ic_gang</item>
+        <item>@drawable/ic_hot_scores</item>
+        <item>@drawable/ic_options</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="question_title">Can you find which one doesn\&apos;t match?</string>
+
+    <!-- Preferences -->
+    <string name="pref_gestures">Use gestures</string>
+    <string name="pref_gestures_summary">Use gestures S,V,G to start new game while playing</string>
+    <string name="pref_downloadMovieImages">Download movie images</string>
+    <string name="pref_downloadMovieImages_summary">Unselect to save bandwidth, memory and CPU load</string>
+    <string name="pref_gameCircle">Connect to Amazon GameCircle</string>
+    <string name="pref_gameCircle_summary">GameCircle saves your scores and leaderboards</string>
+    <string name="pref_categ_user_experience">User experience</string>
+    <string name="pref_login_local">Mutibo</string>
+    <string name="pref_login_local_summary">Login with mutibo credentials</string>
+    <string name="pref_login_facebook">Facebook</string>
+    <string name="pref_login_facebook_summary">Use your facebook account</string>
+    <string name="pref_login_google">Google</string>
+    <string name="pref_login_google_summary">Use your google account</string>
+    <string name="pref_login_method">Login method</string>
+    <string name="pref_login_method_summary">Choose how you will authenticate</string>
+
+    <!-- Home page -->
+    <string name="txtUsername_text">User name</string>
+    <string name="txtPassword_text">Password</string>
+    <string name="userName">Username:</string>
+    <string name="password">Password:</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="register">Register</string>
+    <string name="server">Mutibo server</string>
+    <string name="server_value">https://ntk4.herokuapp.com</string>
+    <string name="userName_value">admin</string>
+    <string name="password_value">pass</string>
+    <string name="demo">Show me the game</string>
+    <string name="fullName">Full name</string>
+    <string name="newUserTitle">New user information</string>
+    <string name="on_back_button_title">Hey, wait a moment&#8230;</string>
+    <string name="on_back_button_message">Are you sure you want to exit Mutibo?</string>
+    <string name="on_abort_game_message">The active game will be aborted</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="movie_image">Movie image</string>
+    <string name="correct_answer">That is correct!</string>
+    <string name="incorrect_answer">Sorry&#8230; incorrect answer. %d lives remain!</string>
+    <string name="game_over">The game is over! thanks for playing!</string>
+    <string name="answerMovieTitle">Vikings</string>
+    <string name="like_contentDescription">I like this question</string>
+    <string name="unlike_contentDescription">I don\'t like this question</string>
+
+    <!-- Pick user fragment -->
+    <string name="pickUserTitle">Please select a user from the list</string>
+    <string name="game_request_notification_title">%s request</string>
+    <string name="game_request_notification_text">Pending request by %s!</string>
+
+    <!-- Google+ values -->
+    <string name="circles_title">Visible circles:</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    <!-- End of Google+ values -->
+
+</resources>

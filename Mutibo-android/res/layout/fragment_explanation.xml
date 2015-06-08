@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/correct_answer"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgDislike"
+        android:layout_alignRight="@+id/imgLike"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblAnswerExplanation"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:minHeight="100dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/movie_image"
+        android:src="@drawable/vikings" />
+
+    <TextView
+        android:id="@+id/lbMovieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblResult"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/answerMovieTitle"
+        android:textStyle="bold" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/lblAnswerExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lbMovieTitle"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/movie_image" />
+
+    <TextView
+        android:id="@+id/lblScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblAnswerExplanation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/lblAnswerExplanation"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgDislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lblResult"
+        android:layout_marginLeft="14dp"
+        android:contentDescription="@string/unlike_contentDescription"
+        android:src="@drawable/unlike2" />
+
+    <ImageView
+        android:id="@+id/imgLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/lblResult"
+        android:layout_marginRight="14dp"
+        android:contentDescription="@string/like_contentDescription"
+        android:src="@drawable/like2" />
+
+</RelativeLayout>

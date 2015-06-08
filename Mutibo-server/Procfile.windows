@@ -1,0 +1,2 @@
+worker: java -cp .;./lib/*;./build/classes/main org.ntk.mutibo.cloud.HerokuHeartbeat
+web:    java -Dserver.port=8443 -cp ./build/resources/main/* -jar ./build/libs/Mutibo-server.jar

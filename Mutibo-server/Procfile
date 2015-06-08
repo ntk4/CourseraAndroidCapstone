@@ -1,0 +1,2 @@
+worker: java -cp .:./lib/*:./build/classes/main org.ntk.mutibo.cloud.HerokuHeartbeat &
+web:    java -Dserver.port=$PORT $JAVA_OPTS -cp ./build/resources/main/application.properties -jar ./build/libs/*.jar

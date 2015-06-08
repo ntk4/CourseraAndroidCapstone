@@ -1,0 +1,1 @@
+java -Dserver.port=$PORT -cp .:./target/lib/junit-4.11.jar:./target/lib/*:./target/test-classes:./target/mutibo-1.0-SNAPSHOT.jar org.junit.runner.JUnitCore org.ntk.mutibo.test.MutiboServerTest

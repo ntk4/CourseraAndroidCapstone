@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listDisplayWord">
+        <item>Mutibo</item>
+        <item>Facebook</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="listReturnValue">
+        <item>M</item>
+        <item>F</item>
+        <item>G</item>
+    </string-array>
+
+</resources>
